@@ -1,0 +1,27 @@
+# Byte-compiled / Python kalıntıları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortamlar (Sistem spesifik kütüphaneler)
+myenv/
+venv/
+env/
+ENV/
+
+# İndirilen Model Ağırlıkları ve Önbellekler
+hf_cache/
+torch_cache/
+d_pip_cache/
+d_tmp/
+cache/
+.cache/
+
+# Sistem ve Editör Çöpleri
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Kullanıcıya özel log dosyaları
+*.log
